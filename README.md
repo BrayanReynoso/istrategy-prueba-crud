@@ -33,8 +33,8 @@ Asegúrate de tener instalados los siguientes componentes en tu entorno de desar
 1. **Clonar el repositorio:**
 
    ```bash
-   git clone https://github.com/tuusuario/prueba_istrategy.git
-   cd prueba_istrategy
+   git clone https://github.com/BrayanReynoso/istrategy-prueba-crud.git
+   cd istrategy-prueba-crud
    
 ## Configuración 
 
