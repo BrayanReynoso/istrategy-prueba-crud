@@ -1,0 +1,13 @@
+# Habilitar el módulo de reescritura
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /prueba-istrategy/
+
+    # Redirigir errores 404 a la página personalizada
+    ErrorDocument 404 /prueba-istrategy/public/pages/404.php
+
+    # Redirigir todas las solicitudes que no existen a la página 404
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^.*$ /prueba-istrategy/public/pages/404.php [L]
+</IfModule>

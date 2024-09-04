@@ -1,0 +1,154 @@
+@import url('/css/colores.css');
+
+body, html {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./../assets/back.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    color: #ffffff; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.profile-header {
+    background: #20262c;
+    padding: 20px 0; 
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.profile-background {
+    background-image: url('./../assets/portada.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    width: 100%;    
+}
+
+.p-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    margin-top: 50px;
+}
+
+.profile-body {
+    background-color: #334659;
+    width: 90%;
+    padding: 20px;
+}
+
+.profile-navbar {
+    background-image: url('./../assets/back.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.profile-navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.profile-photo {
+    top: 25px; 
+    left: 50%; 
+    transform: translateX(-200%);
+    z-index: 10; 
+}
+
+.profile-photo img {
+    width: 200px;
+    border: 8px solid white;
+}
+
+.welcome-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: auto; 
+    margin: 0 auto;
+}
+
+.welcome-icon {
+    max-height: 40px;
+    width: auto;
+}
+
+.welcome-message {
+    flex: 1; 
+    text-align: left; 
+    margin-left: 20px;
+}
+
+.welcome-title {
+    font-size: 1.5rem; 
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.welcome-subtitle {
+    font-size: 1rem; 
+    color: #ffffff;
+}
+
+.about-me {
+    color: #ffffff;
+}
+
+.profile-content {
+    margin-top: 20px;
+}
+
+.profile-sidebar {
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.nav-link {
+    color: #fbfbfb; 
+    padding: 10px 0; 
+    font-weight: 500; 
+}
+
+.nav-link.active {
+    font-weight: 700; 
+    color: #e91e1e; 
+}
+
+.profile-details {
+    padding: 15px; 
+    border-radius: 5px;
+}
+
+.profile-section {
+    margin-bottom: 20px;
+}
+
+.profile-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.profile-section p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.btn-link {
+    color: #c7cbcf;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+

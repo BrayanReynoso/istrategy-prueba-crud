@@ -1,0 +1,25 @@
+body {
+    background-image: url('./../assets/back.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+.error-title {
+    font-size: 5rem;
+    font-weight: 700;
+}
+.error-message {
+    font-size: 1.5rem;
+}

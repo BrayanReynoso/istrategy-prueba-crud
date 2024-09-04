@@ -1,0 +1,17 @@
+/* Variables de color */
+:root {
+    --color-primary-dark: #334659;
+    --color-primary-light: #cd3739;
+    --color-white: #ffffff;
+    --color-text-dark: #404040;
+    --color-text-light: #000000;
+    --color-secondary-dark: #233544;
+    --color-secondary-light: #586B7C;
+    --color-icon: #9E9E9E;
+    --color-accent-orange: #f77f00;
+    --color-accent-yellow: #fcbf49;
+    --color-accent-beige: #eae2b7;
+    --color-accent-blue: #00BDFF;
+    --color-grey-light: #E0E0E0;
+    --color-secondary-darkest: #2E465B;
+}
